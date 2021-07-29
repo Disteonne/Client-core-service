@@ -4,8 +4,11 @@ public class ApiConstants {
 
     public static final String CLIENT_CORE_SERVICE = "/client-core-service";
     public static final String V1 = "/v1";
-    public static final String ACCOUNT = "account";
     public static final String CLIENT = "/client";
+    public static final String CLIENT_MANAGEMENT = "/clientManagement";
+    public static final String ACCOUNT = "account";
+
+    public static final String ID = "{id}";
 
 
     public static final String SLASH = "/";
