@@ -15,7 +15,7 @@ public class ClientResource {
 
     @RequestMapping(value = SLASH, method = RequestMethod.GET)
     public Client get() {
-        return new Client("name",16, List.of("first"), LocalDate.now(),LocalDate.now(), ApiConstants.Roles.ROLE_USER);
+        return null;
     }
     //get
     //set
