@@ -58,8 +58,8 @@
 		<!-- https://mvnrepository.com/artifact/io.soabase.record-builder/record-builder-core-java15 -->
 		<dependency>
 			<groupId>io.soabase.record-builder</groupId>
-			<artifactId>record-builder-core-java15</artifactId>
-			<version>1.17</version>
+			<artifactId>record-builder-core</artifactId>
+			<version>22</version>
 		</dependency>
 
 
@@ -67,7 +67,7 @@
 
 	<build>
 		<plugins>
-			<!--<plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
@@ -82,13 +82,13 @@
 					<annotationProcessors>
 						<annotationProcessor>io.soabase.recordbuilder.processor.RecordBuilderProcessor</annotationProcessor>
 					</annotationProcessors>
-					&lt;!&ndash; "release" and "enable-preview" are required while records are preview features &ndash;&gt;
-					<release>15</release>
+					<!-- "release" and "enable-preview" are required while records are preview features -->
+					<release>16</release>
 					<compilerArgs>
-						<arg>&#45;&#45;enable-preview</arg>
+						<arg>--enable-preview</arg>
 					</compilerArgs>
 				</configuration>
-			</plugin>-->
+			</plugin>
 			<!--<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

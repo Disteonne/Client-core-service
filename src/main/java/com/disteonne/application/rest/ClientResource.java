@@ -1,6 +1,7 @@
 package com.disteonne.application.rest;
 
 import com.disteonne.application.core.model.Client;
+import com.disteonne.application.core.model.ClientBuilder;
 import org.apache.catalina.connector.Response;
 import org.springframework.web.bind.annotation.*;
 
